@@ -5,7 +5,7 @@ import Header from "./components/Header/Header.jsx";
 import CoreConcept from "./components/CoreConcept.jsx";
 import TabButton from "./components/TabButton.jsx";
 import { EXAMPLES } from "./data.js";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -19,7 +19,6 @@ function App() {
       <div>
         <Header />
         <main>
-          <Switch>
             <Route exact path="/01-starting-project">
               <section id="core-concepts">
                 <h2>Core Concepts</h2>
@@ -79,7 +78,6 @@ function App() {
                 )}
               </section>
             </Route>
-          </Switch>
         </main>
       </div>
     </Router>
