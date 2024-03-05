@@ -1,7 +1,7 @@
 {
   "name": "react-essentials-start",
   "version": "0.0.0",
-  "homepage": "https://sush-2012.github.io/01-starting-project",
+  "homepage": "https://sush-2012.github.io/dist/src/index.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
